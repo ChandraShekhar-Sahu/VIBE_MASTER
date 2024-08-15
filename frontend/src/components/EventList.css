@@ -1,0 +1,34 @@
+/* EventList.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the container takes full viewport height */
+  overflow: hidden; /* Prevent the container from scrolling */
+}
+
+.scrollable-content {
+  flex: 1; /* Take up remaining space */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.small-div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+}

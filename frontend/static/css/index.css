@@ -1,0 +1,23 @@
+
+html, body{
+    height: 100%; margin: 10px;padding: auto;
+}
+#main{
+    position:fixed;
+    width: 100%; height: 100%; left: 0; top: 0;
+}
+#app{
+    width: 100%;
+     height: 100%;
+     justify-content: center;
+    align-items: center;
+}
+
+.modal-backdrop {
+    z-index: 1050 !important;
+}
+
+.modal {
+    z-index: 1060 !important;
+}
+
