@@ -1,13 +1,24 @@
 {
-    "builds": [{
+    "builds": [
+      {
         "src": "music_controller/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-    }],
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.12" }
+      }
+    ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "music_controller/wsgi.py"
-        }
-    ]
-}
+      {
+        "src": "/(.*)",
+        "dest": "music_controller/wsgi.py"
+      }
+    ],
+    "build": {
+      "env": {
+        "PYTHON_VERSION": "3.12"
+      },
+      "commands": {
+        "build": "python manage.py STATIC_URL --noinput && python manage.py migrate"
+      }
+    }
+  }
+  
