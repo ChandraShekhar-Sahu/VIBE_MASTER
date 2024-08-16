@@ -14,7 +14,7 @@
     ],
     "build": {
       "env": {
-        "PYTHON_VERSION": "3.12"
+        "PYTHON_VERSION": "3.11"
       },
       "commands": {
         "build": "python manage.py STATIC_URL --noinput && python manage.py migrate"
