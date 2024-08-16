@@ -101,7 +101,7 @@ nest-asyncio==1.5.6
 nltk==3.8.1
 notebook==7.0.6
 notebook_shim==0.2.3
-numpy==1.25.0
+
 oauthlib==3.2.2
 openpyxl==3.1.2
 opt-einsum==3.3.0
