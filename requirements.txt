@@ -90,7 +90,6 @@ matplotlib==3.7.1
 matplotlib-inline==0.1.6
 mdurl==0.1.2
 mistune==3.0.2
-ml-dtypes==0.2.0
 mysql-connector-python==8.1.0
 namex==0.0.7
 nbclient==0.8.0
@@ -128,10 +127,8 @@ pyparsing==3.1.0
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2023.3
-
 sqlparse==0.4.4
 stack-data==0.6.2
-
 termcolor==2.4.0
 terminado==0.17.1
 threadpoolctl==3.5.0
